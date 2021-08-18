@@ -20,13 +20,16 @@
         <module>resttemplate</module>
         <module>consumer</module>
         <module>Zuul</module>
-        <module>Riddon</module>
+        <module>Ribbon</module>
         <module>feign</module>
         <module>Hystrix</module>
         <module>ConfigServer</module>
         <module>NativeConfigClient</module>
         <module>nativeconfigserver</module>
         <module>nativeconfigclient</module>
+        <module>configserver</module>
+        <module>configclient</module>
+        <module>configclient</module>
     </modules>
 
 
