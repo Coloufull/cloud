@@ -5,7 +5,7 @@ spring:
       label: master
       discovery:
         enabled: true
-        service-id: configserver
+        service-id: configclient
 eureka:
   client:
     serviceUrl:

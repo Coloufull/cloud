@@ -9,12 +9,18 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/client")
 public class ClientHandler {
 
-    @Value("${server.port}")
-    private String port;
+//    @Value("${server.port}")
+//    private String port;
+//
+//    @GetMapping("/index")
+//    public String index(){
+//        return this.port;
+//    }
+    @Value("$(server.port)")
+    private  String port;
 
     @GetMapping("/index")
-    public String index(){
-        return this.port;
+    public  String  index(){
+        return  this.port;
     }
-
 }
